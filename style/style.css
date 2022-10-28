@@ -1,0 +1,112 @@
+/*
+основной цвет: #000000
+цвет акцента: #2196F3
+вторичный цвет: #757575
+
+*/
+:root{
+    --accent-color: #2196F3;
+    --title-text-color: #000000;
+    --title-N2-text-color: #757575;
+    --basic-title-color: #ffffff;
+    --hero-footer-color: #2F303A;
+    --title-N3-text-color: #212121;
+}
+
+/* --------------index.html--------------------*/
+.body {
+  background-color: var(--basic-title-color);
+  color: var(--title-text-color);
+}
+
+
+/*--------------header-----------*/
+
+.header{
+    color: var(--title-text-color);
+    background-color: var(--basic-title-color);
+}
+
+.header-logo{
+   color: var(--title-text-color);
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+}
+
+.header-logo:focus,
+.header-logo:hover {
+    color: var(--accent-color);
+}
+
+.header-logo-web{
+    color: var(--accent-color);
+}
+
+.header-nav{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-nav-li{
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    text-decoration: none;
+    list-style-type:none;
+    color: var(--title-N3-text-color);
+}
+
+.header-nav-li:hover,
+.header-nav-li:focus{
+    color: var(--accent-color);
+}
+
+.header-nav-li-ac{
+    color: var(--accent-color);
+}
+
+.header-nav-contact{
+  color: var(--title-N2-text-color);
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-nav-contact:focus,
+.header-nav-contact:hover{
+    color: var(--accent-color);
+}
+
+
+/*-----------Main---------*/
+
+/*------------hero--------*/
+
+.hero{
+    background-color: var(--hero-footer-color);
+    color: var(--basic-title-color);
+}
+
+.hero-h1{
+width: 696px;
+height: 120px;
+left: 437px;
+top: 280px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px; 
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
