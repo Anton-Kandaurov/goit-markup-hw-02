@@ -161,8 +161,6 @@ text-transform: uppercase;
 
 .list-title-p {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -228,8 +226,6 @@ text-transform: uppercase;
 
 .team-list-p {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -365,8 +361,6 @@ text-transform: uppercase;
 .partfolio-list-p{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: var(--title-N2-text-color);
