@@ -349,6 +349,7 @@ text-transform: uppercase;
 
 .partfolio-list-li{
     background-color: #ffffff;
+    border: 2px solid #ececec;
 }
 
 .partfolio-list-title{
@@ -369,5 +370,9 @@ text-transform: uppercase;
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: var(--title-N2-text-color);
+}
+
+.line{
+    border-bottom: 2px solid #ececec;
 }
 
