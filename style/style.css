@@ -30,7 +30,6 @@
 }
 
 .header-logo{
-   color: var(--title-text-color);
    font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
@@ -38,6 +37,7 @@
    line-height: 1.1923;
    letter-spacing: 0.03em;
    text-decoration: none;
+   color: var(--title-text-color);
 }
 
 .header-logo:focus,
@@ -61,6 +61,7 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style-type:none;
+    color: var(--title-N3-text-color);
 }
 
 .header-nav-li:hover,
